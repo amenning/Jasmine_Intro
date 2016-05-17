@@ -51,4 +51,13 @@ describe("Included matchers:", function(){
 		expect(a.foo).not.toBeUndefined();
 		expect(a.bar).toBeUndefined();
 	});
+	
+	it("The 'toBeNull' matcher compares against null", function(){
+		var a = null;
+		var foo = 'foo';
+		
+		expect(null).toBeNull();
+		expect(a).toBeNull();
+		expect(foo).not.toBeNull();
+	});
 });
