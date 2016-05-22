@@ -1,11 +1,11 @@
-/* Disabling Suites
+/* 11. Disabling Suites
 
 Suites can be disabled with the "xdescribe" function. 
 These suites and any specs inside them are skipped 
 when run and thus their results will not appear in the results. 
 
 */
-xdescribe("A spec", function(){
+xdescribe("11. A spec", function(){
 	var foo;
 	
 	beforeEach(function(){

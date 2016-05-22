@@ -1,4 +1,4 @@
-/* Nesting describe Blocks
+/* 10. Nesting describe Blocks
 
 Calls to describe can be nested, with specs defined at any level. 
 This allows a suite to be composed as a tree of functions. 
@@ -7,7 +7,7 @@ each beforeEach function in order. After the spec is executed,
 Jasmine walks through the afterEach functions similarly.
 
 */
-describe("A spec", function(){
+describe("10. A spec", function(){
 	var foo;
 	
 	beforeEach(function(){

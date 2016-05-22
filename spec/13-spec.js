@@ -1,4 +1,4 @@
-/* Spies
+/* 13. Spies
 
 Jasmine has test double functions called spies. A spy can stub any function 
 and tracks calls to it and all arguments. A spy only exists in the describe 
@@ -14,7 +14,7 @@ number of times.
 The toHaveBeenCalledWith matcher will return true if the argument list matches 
 any of the recorded calls to the spy.
 */
-describe("A spy", function(){
+describe("13. A spy", function(){
 	var foo, bar = null;
 	
 	beforeEach(function(){

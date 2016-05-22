@@ -1,4 +1,4 @@
-/* Setup and Teardown
+/* 7. Setup and Teardown
 
 To help a test suite DRY up any duplicated setup and teardown code, 
 Jasmine provides the global beforeEach, afterEach, beforeAll, and afterAll functions.
@@ -12,7 +12,7 @@ under test is defined at the top-level scope — the describe block — and
 initialization code is moved into a beforeEach function. The afterEach 
 function resets the variable before continuing.
 */
-describe("A spec using beforeEach and afterEach", function(){
+describe("7. A spec using beforeEach and afterEach", function(){
 	var foo = 0;
 	
 	beforeEach(function(){

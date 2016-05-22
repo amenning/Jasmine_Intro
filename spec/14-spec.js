@@ -1,10 +1,10 @@
-/* Spies: and.callThrough
+/* 14. Spies: and.callThrough
 
 By chaining the spy with and.callThrough, the spy will still track 
 all calls to it but in addition it will delegate to the actual 
 implementation.
 */
-describe("A spy, when configured to call through", function(){
+describe("14. A spy, when configured to call through", function(){
 	var foo, bar, fetchedBar;
  
 	beforeEach(function(){

@@ -1,4 +1,4 @@
-/* Pending Specs
+/* 12. Pending Specs
 
 Pending specs do not run, but their names will show up in the results 
 as pending. 
@@ -13,7 +13,7 @@ matter the expectations, the spec will be marked pending. A string
 passed to pending will be treated as a reason and displayed when the 
 suite finishes.
 */
-describe("Pending specs", function(){
+describe("12. Pending specs", function(){
 	xit("can be declared 'xit'", function(){
 		expect(true).toBe(false);
 	});

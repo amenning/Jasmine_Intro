@@ -1,4 +1,4 @@
-/* Expectations
+/* 3. Expectations
 
 Expectations are built with the function expect which takes a 
 value, called the actual. It is chained with a Matcher function, 
@@ -14,7 +14,7 @@ or fail the spec.
 Any matcher can evaluate to a negative assertion by chaining the 
 call to expect with a not before calling the matcher.
 */
-describe("The 'toBe' matcher compares with ===", function(){
+describe("3. The 'toBe' matcher compares with ===", function(){
 	it("and has a positive case", function(){
 		expect(true).toBe(true);
 	});

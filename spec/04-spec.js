@@ -1,11 +1,11 @@
-/* Included Matchers
+/* 4. Included Matchers
 
 Jasmine has a rich set of matchers included. Each is used here – 
 all expectations and specs pass. There is also the ability to write 
 custom matchers for when a project’s domain calls for specific assertions 
 that are not included below.
 */
-describe("Included matchers:", function(){
+describe("4. Included matchers:", function(){
 	it("The 'toBe' matcher compares with ===", function(){
 		var a = 12;
 		var b = a;

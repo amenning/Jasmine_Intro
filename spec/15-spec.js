@@ -1,9 +1,9 @@
-/* Spies: and.returnValue
+/* 15. Spies: and.returnValue
 
 By chaining the spy with and.returnValue, all calls to the function 
 will return a specific value.
 */
-describe("A spy, when configured to fake a return value", function(){
+describe("15. A spy, when configured to fake a return value", function(){
 	var foo, bar, fetchedBar;
 	
 	beforeEach(function(){

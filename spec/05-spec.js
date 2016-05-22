@@ -1,9 +1,9 @@
-/*Manually failing a spec with fail
+/*5. Manually failing a spec with fail
 
 The fail function causes a spec to fail. It can take a 
 failure message or an Error object as a parameter.
 */
-describe("A spec using the fail function", function(){
+describe("5. A spec using the fail function", function(){
 	var foo = function(x, callBack){
 		if(x){
 			callBack();
@@ -14,6 +14,7 @@ describe("A spec using the fail function", function(){
 		foo(false, function(){
 			fail("Callback has been called");
 		});
+		expect(true).toBe(true);
 	});
 });
 
