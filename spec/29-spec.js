@@ -19,20 +19,20 @@ describe("29. Manually ticking the Jasmine Clock", function(){
 	});
 	
 	it("causes an interval to be called synchronously", function(){
-		setTimeout(function(){
+		setInterval(function(){
 			timerCallback()
 		}, 100);
 		
 		expect(timerCallback).not.toHaveBeenCalled();
 		
 		jasmine.clock().tick(101);
-		expect((timerCallback).calls.count()).toEqual(1);
+		expect(timerCallback.calls.count()).toEqual(1);
 		
 		jasmine.clock().tick(50);
-		expect((timerCallback).calls.count()).toEqual(1);
+		expect(timerCallback.calls.count()).toEqual(1);
 		
 		jasmine.clock().tick(50);
-		expect((timerCallback).calls.count()).toEqual(2);
+		expect(timerCallback.calls.count()).toEqual(2);
 	});
 });
 
