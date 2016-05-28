@@ -6,7 +6,7 @@ The Jasmine Clock can also be used to mock the current date.
 
 If you do not provide a base time to mockDate it will use the current date.
 */
-describe("29. Manually ticking the Jasmine Clock", function(){
+describe("30. Manually ticking the Jasmine Clock", function(){
 	var timerCallback;
 	
 	beforeEach(function(){
